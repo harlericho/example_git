@@ -16,12 +16,12 @@ detailsButton.addEventListener("click", () => {
   alert("Este ejercicio esta realizado por Karlo Xavier Chok");
 });
 // click en el menu git del navbar
-const gitButton = document.querySelector("#git_link");
-gitButton.addEventListener("click", () => {
-  alert("Navbar de git");
-});
+// const gitButton = document.querySelector("#git_link");
+// gitButton.addEventListener("click", () => {
+//   alert("Navbar de git");
+// });
 // click en el menu details del navbar
-const detailsButton2 = document.querySelector("#details_link");
-detailsButton2.addEventListener("click", () => {
-  alert("Navbar de detalles");
-});
+// const detailsButton2 = document.querySelector("#details_link");
+// detailsButton2.addEventListener("click", () => {
+//   alert("Navbar de detalles");
+// });
