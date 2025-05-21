@@ -1,7 +1,7 @@
 // window.addEventListener("load", () => {
 //   alert("aprendiendo git con ramas master y develop");
 // });
-const button = document.querySelector("button");
+const button = document.querySelector("#click");
 button.addEventListener("click", () => {
   alert("aprendiendo git con ramas master y develop");
 });
@@ -25,4 +25,3 @@ const detailsButton2 = document.querySelector("#details_link");
 detailsButton2.addEventListener("click", () => {
   alert("Navbar de detalles");
 });
-
