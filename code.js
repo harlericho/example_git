@@ -8,5 +8,11 @@ button.addEventListener("click", () => {
 // click al boton info
 const infoButton = document.querySelector("#info");
 infoButton.addEventListener("click", () => {
-  alert("aprendiendo git con ramas master y develop");
+  alert("Con las ramas de git puedes trabajar en paralelo");
 });
+// click al boton details
+const detailsButton = document.querySelector("#details");
+detailsButton.addEventListener("click", () => {
+  alert("Este ejercico esta realizado por Karlo Xavier Chok");
+});
+
