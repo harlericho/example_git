@@ -13,3 +13,8 @@ const detailsButton = document.querySelector("#details");
 detailsButton.addEventListener("click", () => {
   alert("Este ejercicio esta realizado por Karlo Xavier Chok");
 });
+// click al boton modal
+const modalButton = document.querySelector("#modal");
+modalButton.addEventListener("click", () => {
+  alert("Este es un modal de ejemplo");
+});
