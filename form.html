@@ -97,8 +97,29 @@
               required
             />
           </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea
+              class="form-control"
+              id="message"
+              rows="3"
+              placeholder="Enter your message"
+              required
+            ></textarea>
+          </div>
+          <div class="mb-3 form-check">
+            <input
+              type="checkbox"
+              class="form-check-input"
+              id="terms"
+              required
+            />
+            <label class="form-check-label" for="terms">Accept Terms</label>
+          </div>
         </form>
-        <button type="submit" class="btn btn-primary" onclick="validar()">Submit</button>
+        <button type="submit" class="btn btn-primary" onclick="validar()">
+          Submit
+        </button>
         <!-- footer -->
         <footer class="bg-light text-center text-lg-start">
           <div class="text-center p-3">© 2025 GIT - Example</div>
@@ -125,8 +146,14 @@
     <script>
       const name = document.getElementById("name");
       const email = document.getElementById("email");
+      const message = document.getElementById("message");
       const validar = () => {
-        if (name.value === "" || email.value === "") {
+        if (
+          name.value === "" ||
+          email.value === "" ||
+          message.value === "" ||
+          !document.getElementById("terms").checked
+        ) {
           $.notify("Please fill in all fields", "error");
         } else {
           $.notify("Form submitted successfully", "success");
