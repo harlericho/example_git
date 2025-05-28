@@ -13,6 +13,12 @@ const detailsButton = document.querySelector("#details");
 detailsButton.addEventListener("click", () => {
   alert("Este ejercicio esta realizado por Karlo Xavier Chok");
 });
+// click al boton forms
+const formsButton = document.querySelector("#forms");
+formsButton.addEventListener("click", () => {
+  // redigirir a la form.html
+  window.location.href = "form.html";
+});
 // click al boton modal
 const modalButton = document.querySelector("#modal");
 modalButton.addEventListener("click", () => {
