@@ -16,6 +16,10 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -161,6 +165,25 @@
         <footer class="bg-light text-center text-lg-start">
           <div class="text-center p-3">© 2025 GIT - Example</div>
         </footer>
+        <!-- Colocar un wahstapp flotante en la parte inferior derecha -->
+        <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 5">
+          <a
+            href="https://api.whatsapp.com/send?phone=1234567890&text=Hello%20World"
+            target="_blank"
+            class="btn btn-success"
+            style="border-radius: 50%"
+          >
+            <i class="fab fa-whatsapp fa-2x"></i>
+          </a>
+          <a
+            href="https://www.facebook.com/sharer/sharer.php?u=https://example.com"
+            target="_blank"
+            class="btn btn-primary"
+            style="border-radius: 50%"
+          >
+            <i class="fab fa-facebook-f fa-2x"></i>
+          </a>
+        </div>
       </div>
     </div>
     <!-- Modal -->
